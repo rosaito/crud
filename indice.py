@@ -21,8 +21,11 @@ while seleccion != 5:
         print("Tus datos son: "+nombre+" "+apellido+" "+edad+" años")
     elif seleccion == "2":
         print("Eliminar")
+        print("Datos a eliminar: "+nombre+" "+apellido+" "+edad+" años")
     elif seleccion == "3":
         print("Listar")
+        print("Los datos actuales son: ")
+        print (nombre+" "+apellido+" "+edad+" años")
     elif seleccion == "4":
         print("Modificar")
     elif seleccion=="5":
